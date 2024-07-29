@@ -18,21 +18,11 @@
     --fonte-pesada: 600;
 } 
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     box-sizing: border-box;
     background-color :var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-
-.cabecalho {
-    padding: 2% 0 0 15%;
-}
-
 
 .cabecalho__menu__links {
     font-family: var(--fonte-secundaria);
@@ -44,10 +34,6 @@ body {
 
 .cabecalho__menu__links:hover {
     color: var(--cor-hover-menu);
-}
-
-.principal__certificados {
-    padding: 5% 15%;
 }
 
 .principal__certificados__conteudo {
@@ -69,8 +55,6 @@ body {
 .rodape {
     color: var(--cor-terciaria);
     background-color: var(--cor-quaternaria);
-    padding: 1.5rem;
-    text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-pequena);
     font-weight: var(--fonte-pesada);
