@@ -24,3 +24,12 @@
     padding: 1.5rem;
     text-align: center;
 }
+
+@media (max-width: 360px) {
+    .cabecalho {
+        padding: 1rem 2rem;
+    }
+    .cabecalho__menu {
+        justify-content: space-between;
+    }
+}
