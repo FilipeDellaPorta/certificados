@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-dois: #539feb;
-    --cor-tres: #FAF0CA;
-    --cor-hover: #F95738;
+    --cor-azul-claro: #539feb;
+    --cor-branca: #FAF0CA;
+    --cor-vermelha: #F95738;
 } 
 
 body {
@@ -12,16 +12,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-tres);
+    color: var(--cor-branca);
 }
 
 .cabecalho__menu-links {
     text-decoration: none;
-    color: var(--cor-tres);
+    color: var(--cor-branca);
 }
 
 .cabecalho__menu-links:hover {
-    color: var(--cor-hover);
+    color: var(--cor-vermelha);
 }
 
 .principal__lista-linha::before {
@@ -35,14 +35,14 @@ body {
 }
 
 .principal__lista-links {
-    color: var(--cor-dois);
+    color: var(--cor-azul-claro);
     text-decoration: none;
 }
 
 .principal__lista-links:hover {
-    color: var(--cor-hover);
+    color: var(--cor-vermelha);
 }
 
 .rodape {
-    background-color: var(--cor-dois);
+    background-color: var(--cor-azul-claro);
 }
