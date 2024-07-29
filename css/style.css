@@ -1,61 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primaria: #0D3B66;
-    --cor-secundaria: #F4D35E;
-    --cor-terciaria: #FAF0CA;
-    --cor-hover-link: #40F8FF; 
-    --cor-hover-menu: #F95738;
-    --cor-quaternaria: #539feb;
-
-    --fonte-primaria: 'Krona One', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
-
-    --fonte-pequena: 1.5rem;
-    --fonte-grande: 2.25rem;
-
-    --fonte-leve: 400;
-    --fonte-pesada: 600;
+    --cor-dois: #539feb;
+    --cor-tres: #FAF0CA;
+    --cor-hover: #F95738;
 } 
 
 body {
     box-sizing: border-box;
-    background-color :var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: #0D3B66;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-tres);
 }
 
-.cabecalho__menu__links {
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-pesada);
-    color: var(--cor-terciaria);
+.cabecalho__menu-links {
+    text-decoration: none;
+    color: var(--cor-tres);
+}
+
+.cabecalho__menu-links:hover {
+    color: var(--cor-hover);
+}
+
+.principal__lista-linha::before {
+    content: "★ "; /* Símbolo que você deseja adicionar */
+    color: gold; /* Cor do símbolo */
+    margin-right: 8px; /* Espaço entre o símbolo e o texto */
+}
+
+.principal__lista {
+    font-weight: 400;
+}
+
+.principal__lista-links {
+    color: var(--cor-dois);
     text-decoration: none;
 }
 
-.cabecalho__menu__links:hover {
-    color: var(--cor-hover-menu);
-}
-
-.principal__certificados__conteudo {
-    color: var(--cor-terciaria);
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-leve);
-    font-family: var(--fonte-secundaria);
-}
-
-.principal__certificados__conteudo__links {
-    color: var(--cor-secundaria);
-    text-decoration: none;
-}
-
-.principal__certificados__conteudo__links:hover {
-    color: var(--cor-hover-menu);
+.principal__lista-links:hover {
+    color: var(--cor-hover);
 }
 
 .rodape {
-    color: var(--cor-terciaria);
-    background-color: var(--cor-quaternaria);
-    font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-pequena);
-    font-weight: var(--fonte-pesada);
+    background-color: var(--cor-dois);
 }
