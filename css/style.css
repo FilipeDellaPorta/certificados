@@ -15,16 +15,16 @@ body {
     color: var(--cor-branca);
 }
 
-.cabecalho__menu-links {
+.cabecalho__menu__link {
     text-decoration: none;
     color: var(--cor-branca);
 }
 
-.cabecalho__menu-links:hover {
+.cabecalho__menu__link:hover {
     color: var(--cor-vermelha);
 }
 
-.principal__lista-linha::before {
+.principal__lista__linha::before {
     content: "★ "; /* Símbolo que você deseja adicionar */
     color: gold; /* Cor do símbolo */
     margin-right: 8px; /* Espaço entre o símbolo e o texto */
@@ -34,12 +34,12 @@ body {
     font-weight: 400;
 }
 
-.principal__lista-links {
+.principal__lista__link {
     color: var(--cor-azul-claro);
     text-decoration: none;
 }
 
-.principal__lista-links:hover {
+.principal__lista-link:hover {
     color: var(--cor-vermelha);
 }
 
