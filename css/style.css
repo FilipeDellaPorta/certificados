@@ -39,7 +39,7 @@ body {
     text-decoration: none;
 }
 
-.principal__lista-link:hover {
+.principal__lista__link:hover {
     color: var(--cor-vermelha);
 }
 
