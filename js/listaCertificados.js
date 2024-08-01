@@ -134,7 +134,11 @@ const certificados = [
     {
         titulo: "HTTP: entendendo a web por baixo dos panos",
         url: "https://cursos.alura.com.br/certificate/8b9fbe79-fcbe-41b8-b1fb-66b1531f24a5?lang=pt_BR"
-    }
+    },
+    {
+        titulo: "Node.js: criando uma API Rest com Express e MongoDB",
+        url: "https://cursos.alura.com.br/certificate/0b915446-c9a2-41d5-8b78-0e37ec642aa7?lang=pt_BR"
+    },
 ]
 
 // Função para gerar a lista de certificados
