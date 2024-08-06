@@ -139,6 +139,10 @@ const certificados = [
         titulo: "Node.js: criando uma API Rest com Express e MongoDB",
         url: "https://cursos.alura.com.br/certificate/0b915446-c9a2-41d5-8b78-0e37ec642aa7?lang=pt_BR"
     },
+    {
+        titulo: "Node.js: lidando com buscas, filtros, paginação e erros em uma API",
+        url: "https://cursos.alura.com.br/certificate/6db63a1b-626f-468c-b765-014079d144b7?lang=pt_BR"
+    },
 ]
 
 // Função para gerar a lista de certificados
