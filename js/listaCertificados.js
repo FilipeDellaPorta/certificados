@@ -151,6 +151,10 @@ const certificados = [
         titulo: "ORM com Node.js: avançando nas funcionalidades do Sequelize",
         url: "https://cursos.alura.com.br/certificate/951aaa01-0fff-484e-937c-accdacd2dc09?lang=pt_BR"
     },
+    {
+        titulo: "WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB",
+        url: "https://cursos.alura.com.br/certificate/9c6246df-c888-4340-b0bf-9f219b5ea045?lang=pt_BR"
+    },
 ]
 
 // Função para gerar a lista de certificados
