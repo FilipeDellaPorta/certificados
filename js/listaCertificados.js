@@ -155,6 +155,10 @@ const certificados = [
         titulo: "WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB",
         url: "https://cursos.alura.com.br/certificate/9c6246df-c888-4340-b0bf-9f219b5ea045?lang=pt_BR"
     },
+    {
+        titulo: "WebSockets: implemente autenticação e avance no Socket.IO",
+        url: "https://cursos.alura.com.br/certificate/a606d683-7429-4078-8cef-4914a1495369?lang=pt_BR"
+    },
 ]
 
 // Função para gerar a lista de certificados
