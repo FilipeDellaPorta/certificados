@@ -163,6 +163,10 @@ const certificados = [
         titulo: "Node.js: testes unitários e de integração",
         url: "https://cursos.alura.com.br/certificate/0c391d00-cab3-4675-a9c3-84ef9041d24d?lang=pt_BR"
     },
+    {
+        titulo: "Node.js: implementando testes em uma API Rest",
+        url: "https://cursos.alura.com.br/certificate/08c24730-91a8-4661-b257-7bb10b31c5a4?lang=pt_BR"
+    },
 ]
 
 // Função para gerar a lista de certificados
