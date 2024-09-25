@@ -1,0 +1,10 @@
+.principal__lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    align-items: center;   /* Alinha verticalmente ao centro */
+}
+
+.principal__lista__linha {
+    justify-self: center;
+}
