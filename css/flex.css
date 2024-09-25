@@ -10,15 +10,8 @@
 }
 
 .principal {
-    padding: 5% 15%;
+    padding: 5% 2%;
 } 
-
-.principal__lista {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    line-height: 2rem;
-}
 
 .rodape {
     width: auto;
