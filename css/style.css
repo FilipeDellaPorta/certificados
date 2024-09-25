@@ -29,16 +29,12 @@ body {
     color: var(--cor-branca);
 }
 
-.principal__lista__linha:hover {
-    color: var(--cor-vermelha);
-}
-
 .principal__lista__imagem {
     width: 70%;
 }
 
 .principal__lista__imagem:hover {
-    width: 100%;
+    opacity: 0.7
 }
 
 .rodape {
