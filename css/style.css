@@ -24,23 +24,12 @@ body {
     color: var(--cor-vermelha);
 }
 
-.principal__lista__linha::before {
-    content: "★ "; /* Símbolo que você deseja adicionar */
-    color: gold; /* Cor do símbolo */
-    margin-right: 8px; /* Espaço entre o símbolo e o texto */
+.principal__lista__imagem {
+    width: 70%;
 }
 
-.principal__lista {
-    font-weight: 400;
-}
-
-.principal__lista__link {
-    color: var(--cor-azul-claro);
-    text-decoration: none;
-}
-
-.principal__lista__link:hover {
-    color: var(--cor-vermelha);
+.principal__lista__imagem:hover {
+    width: 100%;
 }
 
 .rodape {
