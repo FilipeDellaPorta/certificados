@@ -20,7 +20,13 @@
     </header>  
     
     <main class="principal">
-        <ul id="certificados-lista" class="principal__lista">
+        <div class="cabecalho__pesquisar">
+
+            <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input" data-pesquisa>
+            <button class="pesquisar__botao" data-botao-pesquisa>
+
+        </div>
+        <ul id="certificados-lista" class="principal__lista" data-lista>
            
         </ul>
     </main>
@@ -29,5 +35,6 @@
         <p> Desenvolvido por Filipe Della Porta </p>
     </footer>
     <script type="module" src="./js/geraListaCertificados.js"></script>
+    <script type="module" src="./js/buscaCertificados.js"></script>
 </body>
 </html>

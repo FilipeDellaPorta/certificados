@@ -9,6 +9,12 @@
     padding-right: 2%;
 }
 
+.cabecalho__pesquisar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
 .principal {
     padding: 5% 2%;
 } 
