@@ -3,12 +3,14 @@ const certificados = [
     titulo:
       "Lógica de programação: comece em lógica com o jogo Pong e JavaScript",
     url: "https://cursos.alura.com.br/certificate/281a3d1c-bde4-4815-a01e-0f985d26b0f9?lang=pt_BR",
-    image: "../assets/img/cards/Lógica de programação laços e listas com JavaScript.png",
+    image:
+      "../assets/img/cards/Lógica de programação laços e listas com JavaScript.png",
   },
   {
     titulo: "Lógica de programação: laços e listas com JavaScript",
     url: "https://cursos.alura.com.br/certificate/7fd5bdb1-555e-418f-8885-53dba06a44b2?lang=pt_BR",
-    image: "../assets/img/cards/Lógica de programação laços e listas com JavaScript.png",
+    image:
+      "../assets/img/cards/Lógica de programação laços e listas com JavaScript.png",
   },
   {
     titulo:
@@ -32,12 +34,14 @@ const certificados = [
   {
     titulo: "HTML e CSS: Classes, posicionamento e Flexbox",
     url: "https://cursos.alura.com.br/certificate/c47ed570-810b-435b-b7e8-2a5be928071c?lang=pt_BR",
-    image: "../assets/img/cards/HTML e CSS Classes, posicionamento e Flexbox.png",
+    image:
+      "../assets/img/cards/HTML e CSS Classes, posicionamento e Flexbox.png",
   },
   {
     titulo: "HTML e CSS: cabeçalho, footer e variáveis CSS",
     url: "https://cursos.alura.com.br/certificate/20505ef8-7f51-4231-9b85-e1eb62c8631f?lang=pt_BR",
-    image: "../assets/img/cards/HTML e CSS cabeçalho, footer e variáveis CSS.png",
+    image:
+      "../assets/img/cards/HTML e CSS cabeçalho, footer e variáveis CSS.png",
   },
   {
     titulo:
@@ -71,12 +75,14 @@ const certificados = [
   {
     titulo: "Lógica de programação: explore funções e listas",
     url: "https://cursos.alura.com.br/certificate/139b4ad6-36ed-4844-8f63-843f8d6cc84b?lang=pt_BR",
-    image: "../assets/img/cards/Lógica de programação explore funções e listas.png",
+    image:
+      "../assets/img/cards/Lógica de programação explore funções e listas.png",
   },
   {
     titulo: "Lógica de programação: praticando com desafios",
     url: "https://cursos.alura.com.br/certificate/f19b6633-25f5-458d-8045-e5cb0438ec71?lang=pt_BR",
-    image: "../assets/img/cards/Lógica de programação praticando com desafios.png",
+    image:
+      "../assets/img/cards/Lógica de programação praticando com desafios.png",
   },
   {
     titulo:
@@ -88,38 +94,40 @@ const certificados = [
   {
     titulo: "Python: crie a sua primeira aplicação",
     url: "https://cursos.alura.com.br/certificate/526cf8b9-d3f2-4dcf-aabd-16711701bfbe?lang=pt_BR",
-    image: "../assets/img/cards/Python crie a sua primeira aplicação.png"
-},
-{
-  titulo: "Python: aplicando a Orientação a Objetos",
-  url: "https://cursos.alura.com.br/certificate/56460835-e3b5-47aa-b75c-568a97c3f76d?lang=pt_BR",
-  image: "../assets/img/cards/Python aplicando a Orientação a Objetos.png"
-},
-{
-  titulo: "Python: avance na Orientação a Objetos e consuma API",
-  url: "https://cursos.alura.com.br/certificate/747e4e6a-3404-4798-b198-c7114c202576?lang=pt_BR",
-  image: "../assets/img/cards/Python avance na Orientação a Objetos e consuma API.png"
-},
-{
-  titulo: "Django: templates e boas práticas",
-  url: "https://cursos.alura.com.br/certificate/c3f5d3d5-3754-4eaa-be20-4e85bc9c08e1?lang=pt_BR",
-  image: "../assets/img/cards/Django templates e boas práticas.png"
-},
-{
-  titulo: "Django: persistência de dados e Admin",
-  url: "https://cursos.alura.com.br/certificate/c2e94115-bccc-49a3-ba68-ede1ec4f8574?lang=pt_BR",
-  image: "../assets/img/cards/Django persistência de dados e Admin.png"
-},
-{
-  titulo: "Django: autenticação de formulários e alerta",
-  url: "https://cursos.alura.com.br/certificate/445ade3e-4344-4f1c-97af-59f8bfbdfad4?lang=pt_BR",
-  image: "../assets/img/cards/Django autenticação de formulários e alerta.png"
-},
-{
-  titulo: "Django: CRUD e persistência no S3",
-  url: "https://cursos.alura.com.br/certificate/588acd9f-6baa-436d-a4f4-6bdc8b186532?lang=pt_BR",
-  image: "../assets/img/cards/Django CRUD e persistência no S3.png"
-},
+    image: "../assets/img/cards/Python crie a sua primeira aplicação.png",
+  },
+  {
+    titulo: "Python: aplicando a Orientação a Objetos",
+    url: "https://cursos.alura.com.br/certificate/56460835-e3b5-47aa-b75c-568a97c3f76d?lang=pt_BR",
+    image: "../assets/img/cards/Python aplicando a Orientação a Objetos.png",
+  },
+  {
+    titulo: "Python: avance na Orientação a Objetos e consuma API",
+    url: "https://cursos.alura.com.br/certificate/747e4e6a-3404-4798-b198-c7114c202576?lang=pt_BR",
+    image:
+      "../assets/img/cards/Python avance na Orientação a Objetos e consuma API.png",
+  },
+  {
+    titulo: "Django: templates e boas práticas",
+    url: "https://cursos.alura.com.br/certificate/c3f5d3d5-3754-4eaa-be20-4e85bc9c08e1?lang=pt_BR",
+    image: "../assets/img/cards/Django templates e boas práticas.png",
+  },
+  {
+    titulo: "Django: persistência de dados e Admin",
+    url: "https://cursos.alura.com.br/certificate/c2e94115-bccc-49a3-ba68-ede1ec4f8574?lang=pt_BR",
+    image: "../assets/img/cards/Django persistência de dados e Admin.png",
+  },
+  {
+    titulo: "Django: autenticação de formulários e alerta",
+    url: "https://cursos.alura.com.br/certificate/445ade3e-4344-4f1c-97af-59f8bfbdfad4?lang=pt_BR",
+    image:
+      "../assets/img/cards/Django autenticação de formulários e alerta.png",
+  },
+  {
+    titulo: "Django: CRUD e persistência no S3",
+    url: "https://cursos.alura.com.br/certificate/588acd9f-6baa-436d-a4f4-6bdc8b186532?lang=pt_BR",
+    image: "../assets/img/cards/Django CRUD e persistência no S3.png",
+  },
   {
     titulo: "Figma: conhecendo a ferramenta",
     url: "https://cursos.alura.com.br/certificate/e694650c-ca6a-4438-b501-de29dc7ac85c?lang=pt_BR",
@@ -133,13 +141,14 @@ const certificados = [
   {
     titulo: "Flask: crie uma webapp com Python",
     url: "https://cursos.alura.com.br/certificate/ad5e5d67-5cd4-4149-95c6-de5912397118?lang=pt_BR",
-    image: "../assets/img/cards/Flask crie uma webapp com Python.png"
-},
+    image: "../assets/img/cards/Flask crie uma webapp com Python.png",
+  },
   {
     titulo: "Flask: avançando no desenvolvimento web com Python",
     url: "https://cursos.alura.com.br/certificate/65edb369-eb92-44d3-b58d-f8ae83910b64?lang=pt_BR",
-    image: "../assets/img/cards/Flask avançando no desenvolvimento web com Python.png"
-},
+    image:
+      "../assets/img/cards/Flask avançando no desenvolvimento web com Python.png",
+  },
   {
     titulo: "JavaScript: manipulando elementos no DOM",
     url: "https://cursos.alura.com.br/certificate/614b249b-afd9-432a-9bd4-fbb8175a0281?lang=pt_BR",
@@ -155,7 +164,8 @@ const certificados = [
   {
     titulo: "JavaScript: validações e reconhecimento de voz",
     url: "https://cursos.alura.com.br/certificate/5f849770-69e6-435e-89dd-fc702a751051?lang=pt_BR",
-    image: "../assets/img/cards/JavaScript validações e reconhecimento de voz.png",
+    image:
+      "../assets/img/cards/JavaScript validações e reconhecimento de voz.png",
   },
   {
     titulo: "HTML e CSS: praticando HTML/CSS",
@@ -185,12 +195,14 @@ const certificados = [
   {
     titulo: "JavaScript: consumindo e tratando dados de uma API",
     url: "https://cursos.alura.com.br/certificate/b37130f6-00d2-4f0e-8f57-3109ebeb99ca?lang=pt_BR",
-    image: "../assets/img/cards/JavaScript consumindo e tratando dados de uma API.png",
+    image:
+      "../assets/img/cards/JavaScript consumindo e tratando dados de uma API.png",
   },
   {
     titulo: "JavaScript: utilizando tipos, variáveis e funções",
     url: "https://cursos.alura.com.br/certificate/f0ec3e10-8750-418a-9feb-a479fb7a296e?lang=pt_BR",
-    image: "../assets/img/cards/JavaScript utilizando tipos, variáveis e funções.png",
+    image:
+      "../assets/img/cards/JavaScript utilizando tipos, variáveis e funções.png",
   },
   {
     titulo: "JavaScript: conhecendo arrays",
@@ -216,7 +228,8 @@ const certificados = [
   {
     titulo: "Terminal: aprenda comandos para executar tarefas",
     url: "https://cursos.alura.com.br/certificate/957942f9-f0ad-43a5-bf4b-37805fb8e4b6?lang=pt_BR",
-    image: "../assets/img/cards/Terminal aprenda comandos para executar tarefas.png",
+    image:
+      "../assets/img/cards/Terminal aprenda comandos para executar tarefas.png",
   },
   {
     titulo: "Praticando CSS: Grid e Flexbox",
@@ -231,7 +244,8 @@ const certificados = [
   {
     titulo: "Node.js: criando uma API Rest com Express e MongoDB",
     url: "https://cursos.alura.com.br/certificate/0b915446-c9a2-41d5-8b78-0e37ec642aa7?lang=pt_BR",
-    image: "../assets/img/cards/Node.js criando uma API Rest com Express e MongoDB.png",
+    image:
+      "../assets/img/cards/Node.js criando uma API Rest com Express e MongoDB.png",
   },
   {
     titulo:
@@ -273,7 +287,8 @@ const certificados = [
   {
     titulo: "Node.js: implementando testes em uma API Rest",
     url: "https://cursos.alura.com.br/certificate/08c24730-91a8-4661-b257-7bb10b31c5a4?lang=pt_BR",
-    image: "../assets/img/cards/Node.js implementando testes em uma API Rest.png",
+    image:
+      "../assets/img/cards/Node.js implementando testes em uma API Rest.png",
   },
   {
     titulo: "Node.js: criptografia e tokens JWT",
