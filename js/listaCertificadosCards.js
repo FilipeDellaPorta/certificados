@@ -86,6 +86,41 @@ const certificados = [
       "../assets/img/cards/JavaScript e HTML desenvolva um jogo e pratique lógica de programação.png",
   },
   {
+    titulo: "Python: crie a sua primeira aplicação",
+    url: "https://cursos.alura.com.br/certificate/526cf8b9-d3f2-4dcf-aabd-16711701bfbe?lang=pt_BR",
+    image: "../assets/img/cards/Python crie a sua primeira aplicação.png"
+},
+{
+  titulo: "Python: aplicando a Orientação a Objetos",
+  url: "https://cursos.alura.com.br/certificate/56460835-e3b5-47aa-b75c-568a97c3f76d?lang=pt_BR",
+  image: "../assets/img/cards/Python aplicando a Orientação a Objetos.png"
+},
+{
+  titulo: "Python: avance na Orientação a Objetos e consuma API",
+  url: "https://cursos.alura.com.br/certificate/747e4e6a-3404-4798-b198-c7114c202576?lang=pt_BR",
+  image: "../assets/img/cards/Python avance na Orientação a Objetos e consuma API.png"
+},
+{
+  titulo: "Django: templates e boas práticas",
+  url: "https://cursos.alura.com.br/certificate/c3f5d3d5-3754-4eaa-be20-4e85bc9c08e1?lang=pt_BR",
+  image: "../assets/img/cards/Django templates e boas práticas.png"
+},
+{
+  titulo: "Django: persistência de dados e Admin",
+  url: "https://cursos.alura.com.br/certificate/c2e94115-bccc-49a3-ba68-ede1ec4f8574?lang=pt_BR",
+  image: "../assets/img/cards/Django persistência de dados e Admin.png"
+},
+{
+  titulo: "Django: autenticação de formulários e alerta",
+  url: "https://cursos.alura.com.br/certificate/445ade3e-4344-4f1c-97af-59f8bfbdfad4?lang=pt_BR",
+  image: "../assets/img/cards/Django autenticação de formulários e alerta.png"
+},
+{
+  titulo: "Django: CRUD e persistência no S3",
+  url: "https://cursos.alura.com.br/certificate/588acd9f-6baa-436d-a4f4-6bdc8b186532?lang=pt_BR",
+  image: "../assets/img/cards/Django CRUD e persistência no S3.png"
+},
+  {
     titulo: "Figma: conhecendo a ferramenta",
     url: "https://cursos.alura.com.br/certificate/e694650c-ca6a-4438-b501-de29dc7ac85c?lang=pt_BR",
     image: "../assets/img/cards/Figma conhecendo a ferramenta.png",
@@ -95,6 +130,16 @@ const certificados = [
     url: "https://cursos.alura.com.br/certificate/4174d3a2-1b92-4224-891e-a81e87eae9a6?lang=pt_BR",
     image: "../assets/img/cards/Figma componentes, auto layout e máscaras.png",
   },
+  {
+    titulo: "Flask: crie uma webapp com Python",
+    url: "https://cursos.alura.com.br/certificate/ad5e5d67-5cd4-4149-95c6-de5912397118?lang=pt_BR",
+    image: "../assets/img/cards/Flask crie uma webapp com Python.png"
+},
+  {
+    titulo: "Flask: avançando no desenvolvimento web com Python",
+    url: "https://cursos.alura.com.br/certificate/65edb369-eb92-44d3-b58d-f8ae83910b64?lang=pt_BR",
+    image: "../assets/img/cards/Flask avançando no desenvolvimento web com Python.png"
+},
   {
     titulo: "JavaScript: manipulando elementos no DOM",
     url: "https://cursos.alura.com.br/certificate/614b249b-afd9-432a-9bd4-fbb8175a0281?lang=pt_BR",
