@@ -295,6 +295,11 @@ const certificados = [
     url: "https://cursos.alura.com.br/certificate/ea5fd2a3-fad5-43eb-9aa2-3ff49c86f684?lang=pt_BR",
     image: "../assets/img/cards/Node.js criptografia e tokens JWT.png",
   },
+  {
+    titulo: "Node.js: criando API Rest com autenticação, perfis de usuários e permissões",
+    url: "https://cursos.alura.com.br/certificate/78d88214-7be7-4184-b6e4-619a61f6c5c9?lang=pt_BR",
+    image: "../assets/img/cards/Node.js criando API Rest com autenticação, perfis de usuários e permissões.png"
+},
   /* {
         titulo: "",
         url: "",
