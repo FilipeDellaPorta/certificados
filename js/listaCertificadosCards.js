@@ -300,6 +300,11 @@ const certificados = [
     url: "https://cursos.alura.com.br/certificate/78d88214-7be7-4184-b6e4-619a61f6c5c9?lang=pt_BR",
     image: "../assets/img/cards/Node.js criando API Rest com autenticação, perfis de usuários e permissões.png"
 },
+{
+  titulo: "C#: criando sua primeira aplicação",
+  url: "https://cursos.alura.com.br/certificate/34b52aa1-f374-4dcd-b59b-7e8967d18597?lang=pt_BR",
+  image: "../assets/img/cards/C# criando sua primeira aplicação"
+},
   /* {
         titulo: "",
         url: "",
