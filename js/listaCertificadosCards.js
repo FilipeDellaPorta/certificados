@@ -303,7 +303,7 @@ const certificados = [
 {
   titulo: "C#: criando sua primeira aplicação",
   url: "https://cursos.alura.com.br/certificate/34b52aa1-f374-4dcd-b59b-7e8967d18597?lang=pt_BR",
-  image: "../assets/img/cards/C# criando sua primeira aplicação"
+  image: "../assets/img/cards/C# criando sua primeira aplicação.png"
 },
   /* {
         titulo: "",
