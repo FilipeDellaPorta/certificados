@@ -305,6 +305,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/34b52aa1-f374-4dcd-b59b-7e8967d18597?lang=pt_BR",
   image: "../assets/img/cards/Cs criando sua primeira aplicação.png"
 },
+{
+  titulo: "Java: criando a sua primeira aplicação",
+  url: "https://cursos.alura.com.br/certificate/05d82ff8-a437-42e0-b4b7-98c5c70e9c5c?lang=pt_BR",
+  image: "../assets/img/cards/Java criando a sua primeira aplicação.png"
+},
   /* {
         titulo: "",
         url: "",
