@@ -310,6 +310,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/05d82ff8-a437-42e0-b4b7-98c5c70e9c5c?lang=pt_BR",
   image: "../assets/img/cards/Java criando a sua primeira aplicação.png"
 },
+{
+  titulo: "Nodejs: Autenticação, Passport e OAuth 2.0",
+  url: "https://cursos.alura.com.br/certificate/cc470c61-8cc8-4246-993f-eea2d677b594?lang=pt_BR",
+  image: "../assets/img/cards/Nodejs Autenticação, Passport e OAuth 2.0.png"
+},
   /* {
         titulo: "",
         url: "",
