@@ -320,6 +320,6 @@ const certificados = [
         url: "",
         image: "../assets/img/cards/"
     },*/
-];
+]; //testando
 
 export default certificados;
