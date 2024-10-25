@@ -315,6 +315,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/cc470c61-8cc8-4246-993f-eea2d677b594?lang=pt_BR",
   image: "../assets/img/cards/Nodejs Autenticação, Passport e OAuth 2.0.png"
 },
+{
+  titulo: "Git e GitHub: dominando controle de versão de código",
+  url: "https://cursos.alura.com.br/certificate/ebca5012-dbf6-4bed-9b1b-d2c32595092f?lang=pt_BR",
+  image: "../assets/img/cards/Git e GitHub dominando controle de versão de código.png"
+}
   /* {
         titulo: "",
         url: "",
