@@ -319,7 +319,12 @@ const certificados = [
   titulo: "Git e GitHub: dominando controle de versão de código",
   url: "https://cursos.alura.com.br/certificate/ebca5012-dbf6-4bed-9b1b-d2c32595092f?lang=pt_BR",
   image: "../assets/img/cards/Git e GitHub dominando controle de versão de código.png"
-}
+},
+{
+  titulo: "Windows Prompt: utilizando o CMD",
+  url: "https://cursos.alura.com.br/certificate/d4701a5c-3679-4350-bb44-b032c56bbae6?lang=pt_BR",
+  image: "../assets/img/cards/Windows Prompt utilizando o CMD.png"
+},
   /* {
         titulo: "",
         url: "",
