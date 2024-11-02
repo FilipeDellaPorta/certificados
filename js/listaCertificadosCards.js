@@ -326,7 +326,7 @@ const certificados = [
   image: "../assets/img/cards/Windows Prompt utilizando o CMD.png"
 },
 {
-  titulo: "Expressões Regulares: faça buscas, validações e substituições de textos",
+  titulo: "Expressões Regulares: faça buscas, validações e substituições de textos (Regex)",
   url: "https://cursos.alura.com.br/certificate/9b2ae1f5-86d0-4c1d-befb-261e822ea311?lang=pt_BR",
   image: "../assets/img/cards/Expressões Regulares faça buscas, validações e substituições de textos.png"
 },
