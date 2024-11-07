@@ -301,9 +301,9 @@ const certificados = [
     image: "../assets/img/cards/Node.js criando API Rest com autenticação, perfis de usuários e permissões.png"
 },
 {
-  titulo: "C#: criando sua primeira aplicação",
+  titulo: "C#(C-Sharp): criando sua primeira aplicação",
   url: "https://cursos.alura.com.br/certificate/34b52aa1-f374-4dcd-b59b-7e8967d18597?lang=pt_BR",
-  image: "../assets/img/cards/Cs criando sua primeira aplicação.png"
+  image: "../assets/img/cards/Csharp criando sua primeira aplicação.png"
 },
 {
   titulo: "Java: criando a sua primeira aplicação",
@@ -330,11 +330,16 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/9b2ae1f5-86d0-4c1d-befb-261e822ea311?lang=pt_BR",
   image: "../assets/img/cards/Expressões Regulares faça buscas, validações e substituições de textos.png"
 },
+{
+  titulo: "C#(C-Sharp): aplicando a Orientação a Objetos",
+  url: "https://cursos.alura.com.br/certificate/99144744-5538-4028-bdaa-5d6bdf250a8a?lang=pt_BR",
+  image: "../assets/img/cards/Csharp aplicando a Orientação a Objetos.png"
+}
   /* {
         titulo: "",
         url: "",
         image: "../assets/img/cards/"
     },*/
-]; //testando
+];
 
 export default certificados;
