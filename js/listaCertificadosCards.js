@@ -334,7 +334,12 @@ const certificados = [
   titulo: "C#(C-Sharp): aplicando a Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/99144744-5538-4028-bdaa-5d6bdf250a8a?lang=pt_BR",
   image: "../assets/img/cards/Csharp aplicando a Orientação a Objetos.png"
-}
+},
+{
+  titulo: "Java: aplicando a Orientação a Objetos",
+  url: "https://cursos.alura.com.br/certificate/38e89c0a-7de5-45e1-9c8c-09baf6aa2b9a?lang=pt_BR",
+  image: "../assets/img/cards/Java aplicando a Orientação a Objetos.png"
+},
   /* {
         titulo: "",
         url: "",
