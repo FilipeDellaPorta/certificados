@@ -331,7 +331,7 @@ const certificados = [
   image: "../assets/img/cards/Expressões Regulares faça buscas, validações e substituições de textos.png"
 },
 {
-  titulo: "C#(C-Sharp): aplicando a Orientação a Objetos",
+  titulo: "C#(Csharp): aplicando a Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/99144744-5538-4028-bdaa-5d6bdf250a8a?lang=pt_BR",
   image: "../assets/img/cards/Csharp aplicando a Orientação a Objetos.png"
 },
@@ -339,6 +339,11 @@ const certificados = [
   titulo: "Java: aplicando a Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/38e89c0a-7de5-45e1-9c8c-09baf6aa2b9a?lang=pt_BR",
   image: "../assets/img/cards/Java aplicando a Orientação a Objetos.png"
+},
+{
+  titulo: "C#(Csharp): dominando Orientação a Objetos",
+  url: "https://cursos.alura.com.br/certificate/c51e2647-f6c9-4845-adfc-8e27182856f6?lang=pt_BR",
+  image: "../assets/img/cards/Csharp dominando Orientação a Objetos.png"
 },
   /* {
         titulo: "",
