@@ -215,7 +215,7 @@ const certificados = [
     image: "../assets/img/cards/JavaScript conhecendo objetos.png",
   },
   {
-    titulo: "JavaScript com Node.js: criando sua primeira biblioteca",
+    titulo: "JavaScript com Nodejs: criando sua primeira biblioteca",
     url: "https://cursos.alura.com.br/certificate/efd75134-b3ce-4fec-a25b-8f0100218862?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript com Node.js criando sua primeira biblioteca.png",
@@ -242,26 +242,25 @@ const certificados = [
     image: "../assets/img/cards/HTTP entendendo a web por baixo dos panos.png",
   },
   {
-    titulo: "Node.js: criando uma API Rest com Express e MongoDB",
+    titulo: "Nodejs: criando uma API Rest com Express e MongoDB",
     url: "https://cursos.alura.com.br/certificate/0b915446-c9a2-41d5-8b78-0e37ec642aa7?lang=pt_BR",
     image:
       "../assets/img/cards/Node.js criando uma API Rest com Express e MongoDB.png",
   },
   {
-    titulo:
-      "Node.js: lidando com buscas, filtros, paginação e erros em uma API",
+    titulo: "Nodejs: lidando com buscas, filtros, paginação e erros em uma API",
     url: "https://cursos.alura.com.br/certificate/6db63a1b-626f-468c-b765-014079d144b7?lang=pt_BR",
     image:
       "../assets/img/cards/Node.js lidando com buscas, filtros, paginação e erros em uma API.png",
   },
   {
-    titulo: "ORM com Node.js: desenvolvendo uma API com Sequelize e SQLite",
+    titulo: "ORM com Nodejs: desenvolvendo uma API com Sequelize e SQLite",
     url: "https://cursos.alura.com.br/certificate/9da55c9e-a4d7-4029-afac-9a75eb66dab9?lang=pt_BR",
     image:
       "../assets/img/cards/ORM com Node.js desenvolvendo uma API com Sequelize e SQLite.png",
   },
   {
-    titulo: "ORM com Node.js: avançando nas funcionalidades do Sequelize",
+    titulo: "ORM com Nodejs: avançando nas funcionalidades do Sequelize",
     url: "https://cursos.alura.com.br/certificate/951aaa01-0fff-484e-937c-accdacd2dc09?lang=pt_BR",
     image:
       "../assets/img/cards/ORM com Node.js avançando nas funcionalidades do Sequelize.png",
@@ -280,28 +279,28 @@ const certificados = [
       "../assets/img/cards/WebSockets implemente autenticação e avance no Socket.IO.png",
   },
   {
-    titulo: "Node.js: testes unitários e de integração",
+    titulo: "Nodejs: testes unitários e de integração",
     url: "https://cursos.alura.com.br/certificate/0c391d00-cab3-4675-a9c3-84ef9041d24d?lang=pt_BR",
     image: "../assets/img/cards/Node.js testes unitários e de integração.png",
   },
   {
-    titulo: "Node.js: implementando testes em uma API Rest",
+    titulo: "Nodejs: implementando testes em uma API Rest",
     url: "https://cursos.alura.com.br/certificate/08c24730-91a8-4661-b257-7bb10b31c5a4?lang=pt_BR",
     image:
       "../assets/img/cards/Node.js implementando testes em uma API Rest.png",
   },
   {
-    titulo: "Node.js: criptografia e tokens JWT",
+    titulo: "Nodejs: criptografia e tokens JWT",
     url: "https://cursos.alura.com.br/certificate/ea5fd2a3-fad5-43eb-9aa2-3ff49c86f684?lang=pt_BR",
     image: "../assets/img/cards/Node.js criptografia e tokens JWT.png",
   },
   {
-    titulo: "Node.js: criando API Rest com autenticação, perfis de usuários e permissões",
+    titulo: "Nodejs: criando API Rest com autenticação, perfis de usuários e permissões",
     url: "https://cursos.alura.com.br/certificate/78d88214-7be7-4184-b6e4-619a61f6c5c9?lang=pt_BR",
     image: "../assets/img/cards/Node.js criando API Rest com autenticação, perfis de usuários e permissões.png"
 },
 {
-  titulo: "C#(C-Sharp): criando sua primeira aplicação",
+  titulo: "C# CSharp: criando sua primeira aplicação",
   url: "https://cursos.alura.com.br/certificate/34b52aa1-f374-4dcd-b59b-7e8967d18597?lang=pt_BR",
   image: "../assets/img/cards/Csharp criando sua primeira aplicação.png"
 },
@@ -331,7 +330,7 @@ const certificados = [
   image: "../assets/img/cards/Expressões Regulares faça buscas, validações e substituições de textos.png"
 },
 {
-  titulo: "C#(Csharp): aplicando a Orientação a Objetos",
+  titulo: "C# Csharp: aplicando a Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/99144744-5538-4028-bdaa-5d6bdf250a8a?lang=pt_BR",
   image: "../assets/img/cards/Csharp aplicando a Orientação a Objetos.png"
 },
@@ -341,9 +340,14 @@ const certificados = [
   image: "../assets/img/cards/Java aplicando a Orientação a Objetos.png"
 },
 {
-  titulo: "C#(Csharp): dominando Orientação a Objetos",
+  titulo: "C# Csharp: dominando Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/c51e2647-f6c9-4845-adfc-8e27182856f6?lang=pt_BR",
   image: "../assets/img/cards/Csharp dominando Orientação a Objetos.png"
+},
+{
+  titulo: "Java: trabalhando com listas e coleções de dados",
+  url: "https://cursos.alura.com.br/certificate/df49d2f5-3367-4ab8-983c-24765355445d?lang=pt_BR",
+  image: "../assets/img/cards/Java trabalhando com listas e coleções de dados.png"
 },
   /* {
         titulo: "",
