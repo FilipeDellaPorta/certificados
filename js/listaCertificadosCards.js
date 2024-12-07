@@ -349,6 +349,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/df49d2f5-3367-4ab8-983c-24765355445d?lang=pt_BR",
   image: "../assets/img/cards/Java trabalhando com listas e coleções de dados.png"
 },
+{
+  titulo: "Java: consumindo API, gravando arquivos e lidando com erros",
+  url: "https://cursos.alura.com.br/certificate/7e6ac32c-d650-4cce-9aea-002a8107023f?lang=pt_BR",
+  image: "../assets/img/cards/Java consumindo API, gravando arquivos e lidando com erros.png"
+},
   /* {
         titulo: "",
         url: "",
