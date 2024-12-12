@@ -354,6 +354,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/7e6ac32c-d650-4cce-9aea-002a8107023f?lang=pt_BR",
   image: "../assets/img/cards/Java consumindo API, gravando arquivos e lidando com erros.png"
 },
+{
+  titulo: "C# Csharp: consumindo API, gravando arquivos e utilizando o LINQ",
+  url: "https://cursos.alura.com.br/certificate/b7737653-fa83-47d1-80ad-d56f8c86c5b8?lang=pt_BR",
+  image: "../assets/img/cards/Csharp consumindo API, gravando arquivos e utilizando o LINQ.png"
+},
   /* {
         titulo: "",
         url: "",
