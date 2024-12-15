@@ -1,6 +1,6 @@
 import certificados from "./listaCertificadosCards.js";
 
-const itemsPerPage = 16; // Número de itens por página
+const itemsPerPage = 12; // Número de itens por página
 let currentPage = 1; // Página inicial
 
 function gerarListaCertificados(listaDeCertificados) {
