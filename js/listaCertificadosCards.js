@@ -1,13 +1,13 @@
 const certificados = [
   {
     titulo:
-      "Lógica de programação: comece em lógica com o jogo Pong e JavaScript",
+      "Lógica de programação: comece em lógica com o jogo Pong e JavaScript js",
     url: "https://cursos.alura.com.br/certificate/281a3d1c-bde4-4815-a01e-0f985d26b0f9?lang=pt_BR",
     image:
-      "../assets/img/cards/Lógica de programação laços e listas com JavaScript.png",
+      "../assets/img/cards/Lógica de programação comece em lógica com o jogo Pong e JavaScript.png",
   },
   {
-    titulo: "Lógica de programação: laços e listas com JavaScript",
+    titulo: "Lógica de programação: laços e listas com JavaScript js",
     url: "https://cursos.alura.com.br/certificate/7fd5bdb1-555e-418f-8885-53dba06a44b2?lang=pt_BR",
     image:
       "../assets/img/cards/Lógica de programação laços e listas com JavaScript.png",
@@ -51,7 +51,7 @@ const certificados = [
       "../assets/img/cards/HTML e CSS trabalhando com responsividade e publicação de projetos.png",
   },
   {
-    titulo: "JavaScript para Web: Crie páginas dinâmicas",
+    titulo: "JavaScript js para Web: Crie páginas dinâmicas",
     url: "https://cursos.alura.com.br/certificate/b55803b9-05d9-42e1-8b08-cc5e5b87f669?lang=pt_BR",
     image: "../assets/img/cards/JavaScript para Web Crie páginas dinâmicas.png",
   },
@@ -61,7 +61,7 @@ const certificados = [
     image: "../assets/img/cards/Git e GitHub repositório, commit e versões.png",
   },
   {
-    titulo: "Lógica de programação: mergulhe em programação com JavaScript",
+    titulo: "Lógica de programação: mergulhe em programação com JavaScript js",
     url: "https://cursos.alura.com.br/certificate/68f6bf52-00f6-4e08-a24b-d66bd5205128?lang=pt_BR",
     image:
       "../assets/img/cards/Lógica de programação mergulhe em programação com JavaScript.png",
@@ -86,7 +86,7 @@ const certificados = [
   },
   {
     titulo:
-      "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação",
+      "JavaScript js e HTML: desenvolva um jogo e pratique lógica de programação",
     url: "https://cursos.alura.com.br/certificate/916a86c0-5ab6-4513-8cad-b25776586424?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript e HTML desenvolva um jogo e pratique lógica de programação.png",
@@ -150,19 +150,19 @@ const certificados = [
       "../assets/img/cards/Flask avançando no desenvolvimento web com Python.png",
   },
   {
-    titulo: "JavaScript: manipulando elementos no DOM",
+    titulo: "JavaScript js: manipulando elementos no DOM",
     url: "https://cursos.alura.com.br/certificate/614b249b-afd9-432a-9bd4-fbb8175a0281?lang=pt_BR",
     image: "../assets/img/cards/JavaScript manipulando elementos no DOM.png",
   },
   {
     titulo:
-      "JavaScript: explorando a manipulação de elementos e da localStorage",
+      "JavaScript js: explorando a manipulação de elementos e da localStorage",
     url: "https://cursos.alura.com.br/certificate/a5e8b4a0-a7fe-44a1-b4fa-1acba18d7a59?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript explorando a manipulação de elementos e da localStorage.png",
   },
   {
-    titulo: "JavaScript: validações e reconhecimento de voz",
+    titulo: "JavaScript js: validações e reconhecimento de voz",
     url: "https://cursos.alura.com.br/certificate/5f849770-69e6-435e-89dd-fc702a751051?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript validações e reconhecimento de voz.png",
@@ -178,50 +178,50 @@ const certificados = [
     image: "../assets/img/cards/HTML e CSS responsividade com mobile-first.png",
   },
   {
-    titulo: "JavaScript: métodos de array",
+    titulo: "JavaScript js: métodos de array",
     url: "https://cursos.alura.com.br/certificate/30e7cfbb-00ba-4c53-8a73-759d9e025143?lang=pt_BR",
     image: "../assets/img/cards/JavaScript métodos de array.png",
   },
   {
-    titulo: "JavaScript: criando requisições",
+    titulo: "JavaScript js: criando requisições",
     url: "https://cursos.alura.com.br/certificate/1e2068fb-01ca-4150-9e86-aab4e6ec0e88?lang=pt_BR",
     image: "../assets/img/cards/JavaScript criando requisições.png",
   },
   {
-    titulo: "JavaScript: validando formulários",
+    titulo: "JavaScript js: validando formulários",
     url: "https://cursos.alura.com.br/certificate/e83ffbd7-54db-4652-a5a8-8b10a97bafcd?lang=pt_BR",
     image: "../assets/img/cards/JavaScript validando formulários.png",
   },
   {
-    titulo: "JavaScript: consumindo e tratando dados de uma API",
+    titulo: "JavaScript js: consumindo e tratando dados de uma API",
     url: "https://cursos.alura.com.br/certificate/b37130f6-00d2-4f0e-8f57-3109ebeb99ca?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript consumindo e tratando dados de uma API.png",
   },
   {
-    titulo: "JavaScript: utilizando tipos, variáveis e funções",
+    titulo: "JavaScript js: utilizando tipos, variáveis e funções",
     url: "https://cursos.alura.com.br/certificate/f0ec3e10-8750-418a-9feb-a479fb7a296e?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript utilizando tipos, variáveis e funções.png",
   },
   {
-    titulo: "JavaScript: conhecendo arrays",
+    titulo: "JavaScript js: conhecendo arrays",
     url: "https://cursos.alura.com.br/certificate/e1ed777d-719a-48ee-90bd-8ad95e07f8c9?lang=pt_BR",
     image: "../assets/img/cards/JavaScript conhecendo arrays.png",
   },
   {
-    titulo: "JavaScript: conhecendo objetos",
+    titulo: "JavaScript js: conhecendo objetos",
     url: "https://cursos.alura.com.br/certificate/0f902e09-c3aa-4c21-a0c0-8c25b223fb2d?lang=pt_BR",
     image: "../assets/img/cards/JavaScript conhecendo objetos.png",
   },
   {
-    titulo: "JavaScript com Nodejs: criando sua primeira biblioteca",
+    titulo: "JavaScript js com Nodejs: criando sua primeira biblioteca",
     url: "https://cursos.alura.com.br/certificate/efd75134-b3ce-4fec-a25b-8f0100218862?lang=pt_BR",
     image:
       "../assets/img/cards/JavaScript com Node.js criando sua primeira biblioteca.png",
   },
   {
-    titulo: "JavaScript: programação Orientada a Objetos",
+    titulo: "JavaScript js: programação Orientada a Objetos",
     url: "https://cursos.alura.com.br/certificate/01c09427-c1c1-4fbb-8a9b-781334b308a8?lang=pt_BR",
     image: "../assets/img/cards/JavaScript programação Orientada a Objetos.png",
   },
@@ -300,7 +300,7 @@ const certificados = [
     image: "../assets/img/cards/Node.js criando API Rest com autenticação, perfis de usuários e permissões.png"
 },
 {
-  titulo: "C# CSharp: criando sua primeira aplicação",
+  titulo: "C# csharp: criando sua primeira aplicação",
   url: "https://cursos.alura.com.br/certificate/34b52aa1-f374-4dcd-b59b-7e8967d18597?lang=pt_BR",
   image: "../assets/img/cards/Csharp criando sua primeira aplicação.png"
 },
@@ -330,7 +330,7 @@ const certificados = [
   image: "../assets/img/cards/Expressões Regulares faça buscas, validações e substituições de textos.png"
 },
 {
-  titulo: "C# Csharp: aplicando a Orientação a Objetos",
+  titulo: "C# csharp: aplicando a Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/99144744-5538-4028-bdaa-5d6bdf250a8a?lang=pt_BR",
   image: "../assets/img/cards/Csharp aplicando a Orientação a Objetos.png"
 },
@@ -340,7 +340,7 @@ const certificados = [
   image: "../assets/img/cards/Java aplicando a Orientação a Objetos.png"
 },
 {
-  titulo: "C# Csharp: dominando Orientação a Objetos",
+  titulo: "C# csharp: dominando Orientação a Objetos",
   url: "https://cursos.alura.com.br/certificate/c51e2647-f6c9-4845-adfc-8e27182856f6?lang=pt_BR",
   image: "../assets/img/cards/Csharp dominando Orientação a Objetos.png"
 },
@@ -355,12 +355,12 @@ const certificados = [
   image: "../assets/img/cards/Java consumindo API, gravando arquivos e lidando com erros.png"
 },
 {
-  titulo: "C# Csharp: consumindo API, gravando arquivos e utilizando o LINQ",
+  titulo: "C# csharp: consumindo API, gravando arquivos e utilizando o LINQ",
   url: "https://cursos.alura.com.br/certificate/b7737653-fa83-47d1-80ad-d56f8c86c5b8?lang=pt_BR",
   image: "../assets/img/cards/Csharp consumindo API, gravando arquivos e utilizando o LINQ.png"
 },
 {
-  titulo: "C# Csharp: aplique boas práticas de refatoração e torne seu código mais legível",
+  titulo: "C# csharp: aplique boas práticas de refatoração e torne seu código mais legível",
   url: "https://cursos.alura.com.br/certificate/00199c8e-6300-4316-a55d-f8f0c97feb5a?lang=pt_BR",
   image: "../assets/img/cards/Csharp aplique boas práticas de refatoração e torne seu código mais legível.png"
 },
