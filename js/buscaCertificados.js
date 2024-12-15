@@ -1,41 +1,54 @@
 import gerarListaCertificados from "./geraListaCertificados.js";
 import certificados from "./listaCertificadosCards.js"; // Importa a lista de certificados
 
+// Variável para armazenar o resultado da busca
+let certificadosFiltrados = certificados;
+let currentPage = 1; // Mantém controle da página atual
+
 function buscaCertificado(evento) {
   evento.preventDefault();
 
-  const dadosDePesquisa = document.querySelector("[data-pesquisa]").value.toLowerCase();
+  const dadosDePesquisa = document
+    .querySelector("[data-pesquisa]")
+    .value.toLowerCase();
 
   // Faz a busca na lista de certificados
-  const busca = certificados.filter((certificado) =>
+  certificadosFiltrados = certificados.filter((certificado) =>
     certificado.titulo.toLowerCase().includes(dadosDePesquisa)
   );
 
-  const lista = document.getElementById("certificados-lista"); // Seleciona o elemento da lista no DOM
+  currentPage = 1; // Reseta para a primeira página ao realizar uma nova busca
 
-  // Limpa a lista de certificados anterior
-  lista.innerHTML = "";
-
-  if (busca.length > 0) {
-    // Gera a lista filtrada de certificados
-    gerarListaCertificados(busca);
+  if (certificadosFiltrados.length > 0) {
+    // Gera a lista filtrada de certificados com paginação
+    gerarListaCertificados(certificadosFiltrados, currentPage);
   } else {
     // Caso não encontre resultados
+    const lista = document.getElementById("certificados-lista");
     lista.innerHTML = `<h2 class='mensagem__titulo'>Não existem certificados com este termo.</h2>`;
+
+    // Remove os botões de paginação
+    const paginationContainer = document.getElementById("paginacao");
+    if (paginationContainer) {
+      paginationContainer.innerHTML = "";
+    }
   }
 }
 
-const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
-botaoDePesquisa.addEventListener("click", buscaCertificado);
-
-// Certifica-se que o DOM está completamente carregado antes de adicionar o evento
+// Certifica-se que o DOM está completamente carregado antes de adicionar os eventos
 document.addEventListener("DOMContentLoaded", () => {
-    const campoDePesquisa = document.querySelector("[data-pesquisa]");
-    
-    if (campoDePesquisa) {
-      // Adiciona o evento de input ao campo de pesquisa para busca dinâmica
-      campoDePesquisa.addEventListener("input", buscaCertificado);
-    }
-  });
+  const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
+  const campoDePesquisa = document.querySelector("[data-pesquisa]");
+
+  // Evento ao clicar no botão de busca
+  if (botaoDePesquisa) {
+    botaoDePesquisa.addEventListener("click", buscaCertificado);
+  }
+
+  // Evento ao digitar no campo de busca para busca dinâmica
+  if (campoDePesquisa) {
+    campoDePesquisa.addEventListener("input", buscaCertificado);
+  }
+});
 
 export default buscaCertificado;
