@@ -58,6 +58,32 @@ body {
     opacity: 0.7
 }
 
+.paginacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .paginacao button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .paginacao button:hover {
+    background-color: #0056b3;
+  }
+  
+  .paginacao button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
 .rodape {
     background-color: var(--cor-azul-claro);
 }
