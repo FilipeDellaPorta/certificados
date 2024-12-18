@@ -364,6 +364,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/00199c8e-6300-4316-a55d-f8f0c97feb5a?lang=pt_BR",
   image: "../assets/img/cards/Csharp aplique boas práticas de refatoração e torne seu código mais legível.png"
 },
+{
+  titulo: "C# csharp: aprenda a criar testes limpos com boas práticas",
+  url: "https://cursos.alura.com.br/certificate/e68fd1a4-543a-4f07-8cb0-ba40aac225db?lang=pt_BR",
+  image: "../assets/img/cards/Csharp aprenda a criar testes limpos com boas práticas.png"
+},
   /* {
         titulo: "",
         url: "",
