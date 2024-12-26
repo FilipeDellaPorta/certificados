@@ -369,6 +369,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/e68fd1a4-543a-4f07-8cb0-ba40aac225db?lang=pt_BR",
   image: "../assets/img/cards/Csharp aprenda a criar testes limpos com boas práticas.png"
 },
+{
+  titulo: "Kotlin: desenvolvendo sua primeira aplicação",
+  url: "https://cursos.alura.com.br/certificate/1871089a-6446-4fca-92c1-2b904d6b6501?lang=pt_BR",
+  image: "../assets/img/cards/Kotlin desenvolvendo sua primeira aplicação.png"
+},
   /* {
         titulo: "",
         url: "",
