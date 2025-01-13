@@ -1,115 +1,139 @@
-const itemsPerPage = 12; // Número de itens por página
-let currentPage = 1; // Página inicial
-let certificados = []; // Armazena os certificados carregados
-
-function gerarListaCertificados(listaDeCertificados) {
-  const lista = document.getElementById("certificados-lista"); // Seleciona o elemento da lista no DOM
-  
-  // Limpa a lista antes de gerar os novos itens
-  lista.innerHTML = "";
-
-  // Calcula o índice de início e fim para a página atual
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-
-  const certificadosPagina = listaDeCertificados.slice(startIndex, endIndex);
-
-  certificadosPagina.forEach((certificado) => {
-    const li = document.createElement("li"); // Cria o elemento de lista
-    li.className = "principal__lista__linha"; // Adiciona a classe para o <li>
-
-    const link = document.createElement("a"); // Cria o elemento <a>
-    link.href = certificado.url; // Define a URL do certificado
-    link.className = "principal__lista__link"; // Adiciona a classe ao link
-
-    const img = document.createElement("img"); // Cria o elemento de imagem
-    img.src = certificado.image; // Define o caminho da imagem
-    img.alt = certificado.titulo; // Define o texto alternativo da imagem
-    img.className = "principal__lista__imagem"; // Adiciona a classe para a imagem
-
-    link.appendChild(img); // Insere a imagem dentro do link
-    li.appendChild(link); // Insere o link dentro do item de lista
-
-    lista.appendChild(li); // Adiciona o item da lista ao <ul> ou <ol>
-  });
-
-  renderPaginacao(listaDeCertificados); // Atualiza os botões de paginação
-}
-
-// Função para criar os botões de paginação
-function renderPaginacao(listaDeCertificados) {
-  const totalPages = Math.ceil(listaDeCertificados.length / itemsPerPage);
-  const paginationContainer = document.getElementById("paginacao");
-
-  // Limpa a paginação existente
-  paginationContainer.innerHTML = "";
-
-  for (let i = 1; i <= totalPages; i++) {
-    const button = document.createElement("button");
-    button.textContent = i;
-    button.className = i === currentPage ? "active" : "";
-    button.addEventListener("click", () => {
-      currentPage = i; // Atualiza a página atual
-      gerarListaCertificados(listaDeCertificados); // Re-renderiza a lista
-    });
-    paginationContainer.appendChild(button);
-  }
-}
-
-// Função para buscar certificados dinamicamente
-function buscaCertificado(evento) {
-  evento.preventDefault();
-
-  const dadosDePesquisa = document
-    .querySelector("[data-pesquisa]")
-    .value.toLowerCase();
-
-  // Filtra os certificados de acordo com o termo digitado
-  const certificadosFiltrados = certificados.filter((certificado) =>
-    certificado.titulo.toLowerCase().includes(dadosDePesquisa)
-  );
-
-  currentPage = 1; // Reseta para a primeira página ao realizar uma nova busca
-
-  if (certificadosFiltrados.length > 0) {
-    gerarListaCertificados(certificadosFiltrados);
-  } else {
-    const lista = document.getElementById("certificados-lista");
-    lista.innerHTML = `<h2 class='mensagem__titulo'>Não existem certificados com este termo.</h2>`;
-
-    // Remove os botões de paginação
-    const paginationContainer = document.getElementById("paginacao");
-    if (paginationContainer) {
-      paginationContainer.innerHTML = "";
-    }
-  }
-}
+const itensPorPagina = 12; // Número de certificados por página
+let paginaAtual = 1; // Página inicial
+let certificados = []; // Lista completa de certificados
+let certificadosFiltrados = []; // Lista de certificados após o filtro de pesquisa
 
 // Função para carregar os certificados do JSON remoto
 function carregarCertificados() {
-  fetch("https://raw.githubusercontent.com/FilipeDellaPorta/certificados/main/certificados.json")
-    .then(response => response.json())
-    .then(data => {
-      certificados = data; // Armazena os certificados carregados
-      gerarListaCertificados(certificados); // Gera a lista inicial
+  fetch(
+    "https://raw.githubusercontent.com/FilipeDellaPorta/certificados/refs/heads/main/js/certificados.json"
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      certificados = data; // Armazena todos os certificados
+      certificadosFiltrados = certificados; // Inicializa os certificados filtrados com todos os itens
+      gerarListaCertificados(certificadosFiltrados); // Exibe a lista de certificados
     })
-    .catch(error => console.error("Erro ao carregar os certificados:", error));
+    .catch((error) =>
+      console.error("Erro ao carregar os certificados:", error)
+    );
 }
 
-// Garante que a busca funcione corretamente
-document.addEventListener("DOMContentLoaded", () => {
-  carregarCertificados();
+// Função para gerar os certificados na página
+function gerarListaCertificados(certificadosParaExibir) {
+  const lista = document.getElementById("certificados-lista");
+  lista.innerHTML = ""; // Limpa a lista antes de adicionar os novos itens
 
-  const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
-  const campoDePesquisa = document.querySelector("[data-pesquisa]");
+  // Calcula os índices de início e fim para a página atual
+  const startIndex = (paginaAtual - 1) * itensPorPagina;
+  const endIndex = startIndex + itensPorPagina;
 
-  // Evento ao clicar no botão de busca
-  if (botaoDePesquisa) {
-    botaoDePesquisa.addEventListener("click", buscaCertificado);
+  // Pega os certificados da página atual
+  const certificadosPagina = certificadosParaExibir.slice(startIndex, endIndex);
+
+  certificadosPagina.forEach((certificado) => {
+    const li = document.createElement("li");
+    li.className = "principal__lista__linha";
+
+    // Cria o link para o certificado
+    const link = document.createElement("a");
+    link.href = certificado.url;
+    link.className = "principal__lista__link";
+
+    // Cria a imagem do certificado e torna a imagem o link
+    const img = document.createElement("img");
+    img.src = certificado.image;
+    img.alt = certificado.titulo;
+    img.className = "principal__lista__imagem";
+
+    // Adiciona o título de forma invisível (usando um span)
+    const titulo = document.createElement("span");
+    titulo.className = "invisivel";
+    titulo.textContent = certificado.titulo;
+
+    // Adiciona a imagem e o título invisível ao link, e o link ao item de lista
+    link.appendChild(img);
+    link.appendChild(titulo); // Título invisível
+    li.appendChild(link);
+
+    // Adiciona o item de lista ao contêiner
+    lista.appendChild(li);
+  });
+
+  // Gera a paginação
+  gerarPaginacao(certificadosParaExibir, paginaAtual);
+}
+
+// Função para gerar os botões de paginação
+function gerarPaginacao(certificadosParaExibir, paginaAtual) {
+  const totalPaginas = Math.ceil(
+    certificadosParaExibir.length / itensPorPagina
+  ); // Calcula o total de páginas
+  const paginationContainer = document.getElementById("paginacao");
+  paginationContainer.innerHTML = ""; // Limpa a paginação existente
+
+  // Cria o botão de "Página Anterior"
+  if (paginaAtual > 1) {
+    const prevButton = document.createElement("button");
+    prevButton.textContent = "Anterior";
+    prevButton.addEventListener("click", () => mudarPagina(paginaAtual - 1));
+    paginationContainer.appendChild(prevButton);
   }
 
-  // Evento ao digitar no campo de busca para busca dinâmica
-  if (campoDePesquisa) {
-    campoDePesquisa.addEventListener("input", buscaCertificado);
+  // Cria os botões de página
+  for (let i = 1; i <= totalPaginas; i++) {
+    const button = document.createElement("button");
+    button.textContent = i;
+    button.className = i === paginaAtual ? "active" : "";
+    button.addEventListener("click", () => mudarPagina(i));
+    paginationContainer.appendChild(button);
   }
-});
+
+  // Cria o botão de "Próxima Página"
+  if (paginaAtual < totalPaginas) {
+    const nextButton = document.createElement("button");
+    nextButton.textContent = "Próxima";
+    nextButton.addEventListener("click", () => mudarPagina(paginaAtual + 1));
+    paginationContainer.appendChild(nextButton);
+  }
+}
+
+// Função para mudar a página
+function mudarPagina(novaPagina) {
+  paginaAtual = novaPagina;
+  gerarListaCertificados(certificadosFiltrados); // Recarrega a lista com os certificados filtrados
+}
+
+// Função de filtro de certificados (chamada ao digitar na barra de pesquisa)
+function filtrarCertificados() {
+  const termoBusca = document.getElementById("pesquisar").value.toLowerCase();
+
+  // Filtra a lista de certificados com base no título
+  certificadosFiltrados = certificados.filter((certificado) =>
+    certificado.titulo.toLowerCase().includes(termoBusca)
+  );
+
+  // Se a pesquisa estiver vazia, mostra todos os certificados
+  if (!termoBusca) {
+    certificadosFiltrados = certificados;
+  }
+
+  paginaAtual = 1; // Reseta para a primeira página ao filtrar
+  gerarListaCertificados(certificadosFiltrados); // Exibe os certificados filtrados
+}
+
+// Função para escutar o click no botão de pesquisa
+function configurarBotaoPesquisa() {
+  const botaoPesquisa = document.querySelector(".pesquisar__botao");
+  
+  // Adiciona o evento de click ao botão
+  botaoPesquisa.addEventListener("click", filtrarCertificados);
+}
+
+// Gera a lista de certificados ao carregar a página
+document
+  .getElementById("pesquisar")
+  .addEventListener("input", filtrarCertificados);
+
+// Carrega os certificados quando a página estiver pronta
+carregarCertificados();
