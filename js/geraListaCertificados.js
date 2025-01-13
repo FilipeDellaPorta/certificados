@@ -1,7 +1,6 @@
-import certificados from "./listaCertificadosCards.js";
-
 const itemsPerPage = 12; // Número de itens por página
 let currentPage = 1; // Página inicial
+let certificados = []; // Armazena os certificados carregados
 
 function gerarListaCertificados(listaDeCertificados) {
   const lista = document.getElementById("certificados-lista"); // Seleciona o elemento da lista no DOM
@@ -40,7 +39,7 @@ function gerarListaCertificados(listaDeCertificados) {
 // Função para criar os botões de paginação
 function renderPaginacao(listaDeCertificados) {
   const totalPages = Math.ceil(listaDeCertificados.length / itemsPerPage);
-  const paginationContainer = document.getElementById("paginacao"); // Adicione um container para paginação no HTML
+  const paginationContainer = document.getElementById("paginacao");
 
   // Limpa a paginação existente
   paginationContainer.innerHTML = "";
@@ -57,9 +56,60 @@ function renderPaginacao(listaDeCertificados) {
   }
 }
 
-// Gera a lista inicial ao carregar a página
-document.addEventListener("DOMContentLoaded", () => {
-  gerarListaCertificados(certificados);
-});
+// Função para buscar certificados dinamicamente
+function buscaCertificado(evento) {
+  evento.preventDefault();
 
-export default gerarListaCertificados;
+  const dadosDePesquisa = document
+    .querySelector("[data-pesquisa]")
+    .value.toLowerCase();
+
+  // Filtra os certificados de acordo com o termo digitado
+  const certificadosFiltrados = certificados.filter((certificado) =>
+    certificado.titulo.toLowerCase().includes(dadosDePesquisa)
+  );
+
+  currentPage = 1; // Reseta para a primeira página ao realizar uma nova busca
+
+  if (certificadosFiltrados.length > 0) {
+    gerarListaCertificados(certificadosFiltrados);
+  } else {
+    const lista = document.getElementById("certificados-lista");
+    lista.innerHTML = `<h2 class='mensagem__titulo'>Não existem certificados com este termo.</h2>`;
+
+    // Remove os botões de paginação
+    const paginationContainer = document.getElementById("paginacao");
+    if (paginationContainer) {
+      paginationContainer.innerHTML = "";
+    }
+  }
+}
+
+// Função para carregar os certificados do JSON remoto
+function carregarCertificados() {
+  fetch("https://raw.githubusercontent.com/FilipeDellaPorta/certificados/main/certificados.json")
+    .then(response => response.json())
+    .then(data => {
+      certificados = data; // Armazena os certificados carregados
+      gerarListaCertificados(certificados); // Gera a lista inicial
+    })
+    .catch(error => console.error("Erro ao carregar os certificados:", error));
+}
+
+// Garante que a busca funcione corretamente
+document.addEventListener("DOMContentLoaded", () => {
+  carregarCertificados();
+
+  const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
+  const campoDePesquisa = document.querySelector("[data-pesquisa]");
+
+  // Evento ao clicar no botão de busca
+  if (botaoDePesquisa) {
+    botaoDePesquisa.addEventListener("click", buscaCertificado);
+  }
+
+  // Evento ao digitar no campo de busca para busca dinâmica
+  if (campoDePesquisa) {
+    campoDePesquisa.addEventListener("input", buscaCertificado);
+  }
+});
