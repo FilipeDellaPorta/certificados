@@ -379,6 +379,11 @@ const certificados = [
   url: "https://cursos.alura.com.br/certificate/2ab1c483-93d3-4d29-983a-7307dd5d8022?lang=pt_BR",
   image: "../assets/img/cards/Kotlin evoluindo a aplicação com OO.png"
 },
+{
+  titulo: "Android com Kotlin: criando um app",
+  url: "https://cursos.alura.com.br/certificate/1279403e-3754-4136-8cb7-a1a26643a253?lang=pt_BR",
+  image: "../assets/img/cards/Android com Kotlin criando um app.png"
+},
   /* {
         titulo: "",
         url: "",
