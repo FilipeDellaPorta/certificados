@@ -88,6 +88,10 @@ body {
     background-color: var(--cor-azul-claro);
 }
 
+.invisivel {
+    display: none;
+  }
+
 @media (min-width: 1024px) {
     body {
         font-size: 1.5rem;
