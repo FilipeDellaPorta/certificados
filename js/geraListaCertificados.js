@@ -125,7 +125,7 @@ function filtrarCertificados() {
 // Função para escutar o click no botão de pesquisa
 function configurarBotaoPesquisa() {
   const botaoPesquisa = document.querySelector(".pesquisar__botao");
-  
+
   // Adiciona o evento de click ao botão
   botaoPesquisa.addEventListener("click", filtrarCertificados);
 }
@@ -137,3 +137,11 @@ document
 
 // Carrega os certificados quando a página estiver pronta
 carregarCertificados();
+
+/*
+{
+  "titulo": "",
+  "url": "",
+  "image": "../assets/img/cards/"
+}
+  */

@@ -348,5 +348,10 @@
     "titulo": "Android com Kotlin: criando um app",
     "url": "https://cursos.alura.com.br/certificate/1279403e-3754-4136-8cb7-a1a26643a253?lang=pt_BR",
     "image": "../assets/img/cards/Android com Kotlin criando um app.png"
+  },
+  {
+    "titulo": "Unity: criando um jogo metroidvania 2D",
+    "url": "https://cursos.alura.com.br/certificate/d5604ae8-d035-4a65-8224-eeb6c08923e7?lang=pt_BR",
+    "image": "../assets/img/cards/Unity criando um jogo metroidvania 2D.png"
   }
 ]
