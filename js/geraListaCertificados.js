@@ -6,7 +6,7 @@ let certificadosFiltrados = []; // Lista de certificados após o filtro de pesqu
 // Função para carregar os certificados do JSON remoto
 function carregarCertificados() {
   fetch(
-    "https://raw.githubusercontent.com/FilipeDellaPorta/api-certificados/refs/heads/main/certificados.json?token=GHSAT0AAAAAAC6K7BF6XC6L2E4RZMJLPV56Z53PNUQ"
+    "https://raw.githubusercontent.com/FilipeDellaPorta/certificados/refs/heads/main/certificados.json"
   )
     .then((response) => response.json())
     .then((data) => {
