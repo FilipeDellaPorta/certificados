@@ -368,5 +368,10 @@
     "titulo": "TypeScript na prática: implemente um projeto completo com TypeScript e módulos",
     "url": "https://cursos.alura.com.br/certificate/cb39e30f-8335-4a52-9216-67d9e38758e8?lang=pt_BR",
     "image": "../assets/img/cards/TypeScript na prática implemente um projeto completo com TypeScript e módulos.png"
+  },
+  {
+    "titulo": "TypeScript: aplicando orientação a objetos no Front-end",
+    "url": "https://cursos.alura.com.br/certificate/81013603-c621-4b1a-b2fa-68f5411bf8e2?lang=pt_BR",
+    "image": "../assets/img/cards/TypeScript aplicando orientação a objetos no Front-end.png"
   }
 ]
