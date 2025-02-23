@@ -363,5 +363,10 @@
     "titulo": "Node.JS: melhorando o fluxo de desenvolvimento e integração de sua equipe",
     "url": "https://cursos.alura.com.br/certificate/81ddb9b7-299a-4e60-a450-35a89cb0f345?lang=pt_BR",
     "image": "Node.JS melhorando o fluxo de desenvolvimento e integração de sua equipe.png"
+  },
+  {
+    "titulo": "TypeScript na prática: implemente um projeto completo com TypeScript e módulos",
+    "url": "https://cursos.alura.com.br/certificate/cb39e30f-8335-4a52-9216-67d9e38758e8?lang=pt_BR",
+    "image": "TypeScript na prática implemente um projeto completo com TypeScript e módulos.png"
   }
 ]
