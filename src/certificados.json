@@ -378,5 +378,10 @@
     "titulo": "TypeScript: o paradigma funcional no front-end",
     "url": "https://cursos.alura.com.br/certificate/e4e69db6-28a7-4233-9f29-928c53bf1f72?lang=pt_BR",
     "image": "../dist/assets/images/TypeScript o paradigma funcional no front-end.png"
+  },
+  {
+    "titulo": "Node.js e terminal: dominando o ambiente de desenvolvimento front-end",
+    "url": "https://cursos.alura.com.br/certificate/7da69f51-347b-40a2-88c1-512979fd4288?lang=pt_BR",
+    "image": "../dist/assets/images/Node.js e terminal dominando o ambiente de desenvolvimento front-end.png"
   }
 ]
