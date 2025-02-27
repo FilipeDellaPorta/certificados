@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Angular: evoluindo com formulários e roteamento",
+    "url": "https://cursos.alura.com.br/certificate/41eeb564-909d-416d-ba48-a9c0598639d9?lang=pt_BR",
+    "image": "../dist/assets/images/Angular evoluindo com formulários e roteamento.png"
+  },
+  {
     "titulo": "Angular: construa uma aplicação web com componentes, linguagem de template e CLI",
     "url": "https://cursos.alura.com.br/certificate/45384a5e-bfaf-4d65-bb35-5b86f96eb79a?lang=pt_BR",
     "image": "../dist/assets/images/Angular construa uma aplicação web com componentes, linguagem de template e CLI.png"
