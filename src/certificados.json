@@ -383,5 +383,10 @@
     "titulo": "Node.js e terminal: dominando o ambiente de desenvolvimento front-end",
     "url": "https://cursos.alura.com.br/certificate/7da69f51-347b-40a2-88c1-512979fd4288?lang=pt_BR",
     "image": "../dist/assets/images/Node.js e terminal dominando o ambiente de desenvolvimento front-end.png"
+  },
+  {
+    "titulo": "Angular: construa uma aplicação web com componentes, linguagem de template e CLI",
+    "url": "https://cursos.alura.com.br/certificate/45384a5e-bfaf-4d65-bb35-5b86f96eb79a?lang=pt_BR",
+    "image": "../dist/assets/images/Angular construa uma aplicação web com componentes, linguagem de template e CLI.png"
   }
 ]
