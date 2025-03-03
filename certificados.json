@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "TypeScript Part 1: Evolving Your JavaScript",
+    "url": "https://cursos.alura.com.br/certificate/ef4da92c-dc55-48c8-a284-43d0788e1520?lang=pt_BR",
+    "image": "../dist/assets/images/TypeScript Part 1 Evolving Your JavaScript.png"
+  },
+  {
     "titulo": "Angular: comunicando-se com uma API via requisições HTTP",
     "url": "https://cursos.alura.com.br/certificate/c37ffa31-0bea-48a4-977a-774c6c8f4009?lang=pt_BR",
     "image": "../dist/assets/images/Angular comunicando-se com uma API via requisições HTTP.png"
