@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "TypeScript parte 2: Avançando na linguagem",
+    "url": "https://cursos.alura.com.br/certificate/6ac17f37-0e75-4a22-9d55-aa8724570546?lang=pt_BR",
+    "image": "../dist/assets/images/TypeScript parte 2 Avançando na linguagem.png"
+  },
+  {
     "titulo": "TypeScript Part 1: Evolving Your JavaScript",
     "url": "https://cursos.alura.com.br/certificate/ef4da92c-dc55-48c8-a284-43d0788e1520?lang=pt_BR",
     "image": "../dist/assets/images/TypeScript Part 1 Evolving Your JavaScript.png"
