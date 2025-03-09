@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Typescript parte 3: mais técnicas e boas práticas",
+    "url": "https://cursos.alura.com.br/certificate/8c1da4e5-8431-4521-af26-fdbf6977c82e?lang=pt_BR",
+    "image": "../dist/assets/images/Typescript parte 3 mais técnicas e boas práticas.png"
+  },
+  {
     "titulo": "TypeScript parte 2: Avançando na linguagem",
     "url": "https://cursos.alura.com.br/certificate/6ac17f37-0e75-4a22-9d55-aa8724570546?lang=pt_BR",
     "image": "../dist/assets/images/TypeScript parte 2 Avançando na linguagem.png"
