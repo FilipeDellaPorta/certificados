@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Angular 14: evoluindo a aplicação",
+    "url": "https://cursos.alura.com.br/certificate/1f07e66d-6bc7-4c0a-b322-40f92c736135?lang=pt_BR",
+    "image": "../dist/assets/images/Angular 14 evoluindo a aplicação.png"
+  },
+  {
     "titulo": "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD",
     "url": "https://cursos.alura.com.br/certificate/0e138758-fdb5-4893-ba9d-1b83816952da?lang=pt_BR",
     "image": "../dist/assets/images/Angular 14 aplique os conceitos e desenvolva seu primeiro CRUD.png"
