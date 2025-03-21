@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Angular: ciclo de vida",
+    "url": "https://cursos.alura.com.br/certificate/b838ca3c-d0e5-498a-8ba2-dba377403af2?lang=pt_BR",
+    "image": "../dist/assets/images/Angular ciclo de vida.png"
+  },
+  {
     "titulo": "Angular: formulários orientados a templates",
     "url": "https://cursos.alura.com.br/certificate/f69fe607-6caa-4441-aaf8-ac3f959d19ab?lang=pt_BR",
     "image": "../dist/assets/images/Angular formulários orientados a templates.png"
