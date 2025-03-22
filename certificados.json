@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "JavaScript: classes e heranças no desenvolvimento de aplicações com orientação a objetos",
+    "url": "https://cursos.alura.com.br/certificate/d3c63c12-56aa-4996-96d4-64455ebd3c34?lang=pt_BR",
+    "image": "../dist/assets/images/JavaScript classes e heranças no desenvolvimento de aplicações com orientação a objetos.png"
+  },
+  {
     "titulo": "JavaScript: manipulando objetos",
     "url": "https://cursos.alura.com.br/certificate/bee73ba3-06b9-42a1-ac3e-0e19c314c36d?lang=pt_BR",
     "image": "../dist/assets/images/JavaScript manipulando objetos.png"
