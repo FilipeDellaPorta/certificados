@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "JavaScript: manipulando objetos",
+    "url": "https://cursos.alura.com.br/certificate/bee73ba3-06b9-42a1-ac3e-0e19c314c36d?lang=pt_BR",
+    "image": "../dist/assets/images/JavaScript manipulando objetos.png"
+  },
+  {
     "titulo": "Angular: ciclo de vida",
     "url": "https://cursos.alura.com.br/certificate/b838ca3c-d0e5-498a-8ba2-dba377403af2?lang=pt_BR",
     "image": "../dist/assets/images/Angular ciclo de vida.png"
