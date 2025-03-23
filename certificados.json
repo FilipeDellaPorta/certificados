@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "JavaScript: trabalhando com threads para requisições simultâneas",
+    "url": "https://cursos.alura.com.br/certificate/7becf267-87de-4f66-a715-3cecf570d5cb?lang=pt_BR",
+    "image": "../assets/images/JavaScript trabalhando com threads para requisições simultâneas.png"
+  },
+  {
     "titulo": "JavaScript: classes e heranças no desenvolvimento de aplicações com orientação a objetos",
     "url": "https://cursos.alura.com.br/certificate/d3c63c12-56aa-4996-96d4-64455ebd3c34?lang=pt_BR",
     "image": "../assets/images/JavaScript classes e heranças no desenvolvimento de aplicações com orientação a objetos.png"
