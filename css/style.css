@@ -24,7 +24,7 @@ body {
     color: var(--cor-vermelha);
 }
 
-.pesquisar__input {
+.principal__pesquisar__input {
     width: 260px;
     height: 32px;
     border: 1px solid rgb(211, 211, 211);
@@ -34,7 +34,7 @@ body {
     color: #000000;
 }
 
-.pesquisar__botao {
+.principal__pesquisar__botao {
     background-image: url(../assets/images/search.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -58,14 +58,14 @@ body {
     opacity: 0.7
 }
 
-.paginacao {
+.principal__paginacao {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     gap: 10px;
-  }
+}
   
-  .paginacao button {
+.principal__paginacao button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -73,16 +73,16 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-  }
+}
   
-  .paginacao button:hover {
+.principal__paginacao button:hover {
     background-color: #0056b3;
-  }
+}
   
-  .paginacao button[disabled] {
+.principal__paginacao button[disabled] {
     background-color: #ccc;
     cursor: not-allowed;
-  }
+}
 
 .rodape {
     background-color: var(--cor-azul-claro);
@@ -90,7 +90,7 @@ body {
 
 .invisivel {
     display: none;
-  }
+}
 
 @media (min-width: 1024px) {
     body {

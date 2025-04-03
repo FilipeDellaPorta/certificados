@@ -103,7 +103,7 @@ function filtrarCertificados() {
 }
 
 function configurarBotaoPesquisa() {
-  const botaoPesquisa = document.querySelector('.pesquisar__botao');
+  const botaoPesquisa = document.querySelector('.principal__pesquisar__botao');
 
   botaoPesquisa.addEventListener('click', filtrarCertificados);
 }
