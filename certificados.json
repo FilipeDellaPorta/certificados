@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "React: desenvolvendo com JavaScript",
+    "url": "https://cursos.alura.com.br/certificate/0978f17f-62f2-47fc-a29a-f8797878350d?lang=pt_BR",
+    "image": "../assets/images/React desenvolvendo com JavaScript.png"
+  },
+  {
     "titulo": "Redes: dos conceitos iniciais à criação de uma intranet",
     "url": "https://cursos.alura.com.br/certificate/788582fd-8d4e-42ee-a5f2-288fbaa38e82?lang=pt_BR",
     "image": "../assets/images/Redes dos conceitos iniciais à criação de uma intranet.png"
