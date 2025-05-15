@@ -1,5 +1,35 @@
 [
   {
+    "titulo": "teste",
+    "url": "teste",
+    "image": "../assets/images/teste.png"
+  },
+  {
+    "titulo": "Pandas: conhecendo a biblioteca",
+    "url": "https://cursos.alura.com.br/certificate/f8c2e54b-eb7e-4b1a-9086-da1e36422fcf?lang=pt_BR",
+    "image": "../assets/images/teste.png"
+  },
+  {
+    "titulo": "Empreendedorismo para Devs: transformando ideias em negócios",
+    "url": "https://cursos.alura.com.br/certificate/87c73e3f-aed4-48b9-804c-8edc75e484c4?lang=pt_BR",
+    "image": "../assets/images/teste.png"
+  },
+    {
+    "titulo": "NumPy: análise numérica eficiente com Python",
+    "url": "https://cursos.alura.com.br/certificate/67da930d-65f2-449e-9a68-e1364c8077f5?lang=pt_BR",
+    "image": "../assets/images/teste.png"
+  },
+  {
+    "titulo": "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
+    "url": "https://cursos.alura.com.br/certificate/c65f8687-446f-4449-9057-aacd76440d44?lang=pt_BR",
+    "image": "../assets/images/Python para Data Science trabalhando com funções, estruturas de dados e exceções.png"
+  },
+  {
+    "titulo": "Python para Data Science: primeiros passos",
+    "url": "https://cursos.alura.com.br/certificate/602a83e2-4794-46ae-9972-6e69e57fb2e3?lang=pt_BR",
+    "image": "../assets/images/Python para Data Science primeiros passos.png"
+  },
+  {
     "titulo": "React: como os componentes funcionam",
     "url": "https://cursos.alura.com.br/certificate/4bf28346-e202-4406-be16-afaae29d37eb?lang=pt_BR",
     "image": "../assets/images/React como os componentes funcionam.png"
